@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Oswald:wght@200..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;  
+    background: #d5ecf7;
+}
+
+.titulo {
+    display: block;
+    margin: 0 auto;
+    width: 500px; 
+}
+
+.containerPokemon{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    
+}
+
+.pokemon{
+    background-color:#e5ffb5;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    
+}
+
+.imagem_pokemon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.6) ;
+    border-radius: 30%;
+    width:160px;
+    height:160px;
+    border: 2px solid grey; 
+}
+
+.imagem-pokemon img{
+    max-width: 90%;
+}
+
+.informacoes{
+    margin-top: 20px;
+}
